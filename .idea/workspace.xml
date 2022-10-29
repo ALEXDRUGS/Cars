@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5edccd13-bc3e-46ca-94ed-fa1a69d59b34" name="Changes" comment="ДЗ Cars">
+    <list default="true" id="5edccd13-bc3e-46ca-94ed-fa1a69d59b34" name="Changes" comment="ДЗ Cars2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <updated>1666261384264</updated>
       <workItem from="1666261390987" duration="6224000" />
       <workItem from="1666944335636" duration="27469000" />
-      <workItem from="1667030326332" duration="4236000" />
+      <workItem from="1667030326332" duration="14040000" />
     </task>
     <task id="LOCAL-00001" summary="ДЗ Cars">
       <created>1666264938187</created>
@@ -64,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666264938187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ДЗ Cars2">
+      <created>1667035335842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667035335842</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ДЗ Cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Cars" />
+    <MESSAGE value="ДЗ Cars2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Cars2" />
   </component>
 </project>

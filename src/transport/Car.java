@@ -5,7 +5,6 @@ import java.util.Objects;
 
 public class Car {
     private final String brand;
-
     private final String model;
     private final int productionYear;
     private final String productionCountry;
@@ -16,6 +15,56 @@ public class Car {
     private String registrationNumber;
     private final int places;
     private String season;
+    private final Key key;
+    private final Insurance insurance;
+
+    public static class Key {
+        private final boolean remoteEngineStart;
+        private final boolean keylessAccess;
+
+        public Key(boolean remoteEngineStart, boolean keylessAccess) {
+            this.remoteEngineStart = remoteEngineStart;
+            this.keylessAccess = keylessAccess;
+        }
+
+        public boolean isRemoteEngineStart() {
+            return remoteEngineStart;
+        }
+
+        public boolean isKeylessAccess() {
+            return keylessAccess;
+        }
+    }
+
+    public static class Insurance {
+        private final LocalDate validUntil;
+        private final double cost;
+        private final String number;
+
+        public Insurance(LocalDate validUntil, double cost, String number) {
+            this.validUntil = validUntil != null ? validUntil : LocalDate.now().plusDays(10);
+            this.cost = Math.max(cost, 1f);
+            if (number != null && !number.isEmpty() && !number.isBlank()) {
+                this.number = number;
+            } else {
+                this.number = "default";
+            }
+        }
+
+        public boolean isNumberValid() {
+            return number.length() == 9;
+        }
+
+        public boolean isInsuranceValid() {
+            return LocalDate.now().isBefore(this.validUntil);
+        }
+
+        public double getCost() {
+            return cost;
+        }
+    }
+
+
 
     public String getBrand() {
         return brand;
@@ -95,9 +144,17 @@ public class Car {
         return engineVolume;
     }
 
+    public Key getKey() {
+        return key;
+    }
+
+    public Insurance getInsurance() {
+        return insurance;
+    }
+
     public Car(String brand, String model, int productionYear, String productionCountry, String color,
                double engineVolume, int transmission, String bodyType, String registrationNumber, int places,
-               String season) {
+               String season, Key key, Insurance insurance) {
         String def = "default";
         this.model = Objects.requireNonNullElse(model, def);
         this.productionCountry = Objects.requireNonNullElse(productionCountry, def);
@@ -162,6 +219,8 @@ public class Car {
                 this.engineVolume = engineVolume;
             }
         }
+        this.key = key;
+        this.insurance = insurance;
     }
 
     @Override
@@ -171,7 +230,9 @@ public class Car {
                 + "  Страна производитель: " + getProductionCountry() + "\n"
                 + "  Цвет: " + getColor() + "  Объём двигателя: " + getEngineVolume() + " Количество передач: "
                 + getTransmission() + "\n" + " Тип кузова: " + getBodyType() + " Регистрационный номер: "
-                + getRegistrationNumber() + " Количество мест: " + getPlaces() + " Резина: " + getSeason();
+                + getRegistrationNumber() + " Количество мест: " + getPlaces() + " Резина: "
+                + getSeason() + " " + key.isRemoteEngineStart() + " " + key.isKeylessAccess() + " " + insurance.isInsuranceValid()
+                + " " + insurance.getCost() + " " + insurance.isNumberValid();
     }
 }
 
