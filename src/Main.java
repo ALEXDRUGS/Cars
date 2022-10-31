@@ -22,6 +22,7 @@ public class Main {
                 "123456789"));
         System.out.println(car1 + "\n" + car2 + "\n" + car3 + "\n" + car4 + "\n" + car5);
 
+
         Train train1 = new Train("Ласточка", "B-901", 2011,
                 "Россия", 301.0, "Белорусский вокзал",
                 "Минск-Пассажирский", 3500, 11);
@@ -29,5 +30,14 @@ public class Main {
                 "Россия", 270.0, "Ленинградский вокзал",
                 "Ленинград-Пассажирский", 1700, 8);
         System.out.println(train1 + "\n" + train2);
+
+
+        Bus bus1 = new Bus("Паз", "32053-70", 2020,
+                "Россия", "оранжевый", 60);
+        Bus bus2 = new Bus("ЛиАЗ", "5256", 2021,
+                "Россия", "белый", 100);
+        Bus bus3 = new Bus("Ikarus", "C83.30G", 2003,
+                "Венгрия", "красный", 120);
+        System.out.println(bus1 + "\n" + bus2 + "\n" + bus3);
     }
 }
