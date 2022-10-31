@@ -132,10 +132,10 @@ public class Car extends Transport {
 
     @Override
     public String toString() {
-        return " Марка: " + getBrand() + "  Модель: "
+        return "  Марка: " + getBrand() + "  Модель: "
                 + getModel() + "  Год выпуска: " + getProductionYear()
                 + "  Страна производитель: " + getProductionCountry() + "\n"
-                + "  Цвет: " + getColor() + " Максимальная скорость " + getMaxSpeed() + " км/ч  Объём двигателя: " + getEngineVolume() +
+                + " Цвет: " + getColor() + " Максимальная скорость " + getMaxSpeed() + " км/ч  Объём двигателя: " + getEngineVolume() +
                 " Количество передач: "
                 + getTransmission() + "\n" + " Тип кузова: " + getBodyType() + " Регистрационный номер: "
                 + getRegistrationNumber() + " Количество мест: " + getPlaces() + " Резина: "

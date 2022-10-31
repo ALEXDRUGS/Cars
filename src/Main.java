@@ -1,4 +1,5 @@
 import transport.Car;
+import transport.Train;
 
 import java.time.LocalDate;
 
@@ -20,5 +21,13 @@ public class Main {
                 "ЛЕТО", new Car.Key(true, true), new Car.Insurance(LocalDate.now().plusMonths(3), 1000.0f,
                 "123456789"));
         System.out.println(car1 + "\n" + car2 + "\n" + car3 + "\n" + car4 + "\n" + car5);
+
+        Train train1 = new Train("Ласточка", "B-901", 2011,
+                "Россия", 301.0, "Белорусский вокзал",
+                "Минск-Пассажирский", 3500, 11);
+        Train train2 = new Train("Ленинград", "D-125", 2019,
+                "Россия", 270.0, "Ленинградский вокзал",
+                "Ленинград-Пассажирский", 1700, 8);
+        System.out.println(train1 + "\n" + train2);
     }
 }

@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transport/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +38,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/IdeaProjects/Cars&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Alex/IdeaProjects/Cars",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +60,9 @@
       <workItem from="1666944335636" duration="27469000" />
       <workItem from="1667030326332" duration="14666000" />
       <workItem from="1667120225049" duration="13770000" />
-      <workItem from="1667136988721" duration="316000" />
+      <workItem from="1667136988721" duration="1084000" />
+      <workItem from="1667215119970" duration="5169000" />
+      <workItem from="1667221077136" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="ДЗ Cars">
       <created>1666264938187</created>
@@ -81,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667050696208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ДЗ Cars4">
+      <created>1667137461147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667137461147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +125,7 @@
     <MESSAGE value="ДЗ Cars" />
     <MESSAGE value="ДЗ Cars2" />
     <MESSAGE value="ДЗ Cars3" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Cars3" />
+    <MESSAGE value="ДЗ Cars4" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Cars4" />
   </component>
 </project>
