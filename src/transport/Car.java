@@ -142,6 +142,12 @@ public class Car extends Transport {
                 + getSeason() + " " + getKey().isRemoteEngineStart() + " " + getKey().isKeylessAccess() + " " + getInsurance().isInsuranceValid()
                 + " " + getInsurance().getCost() + " " + getInsurance().isNumberValid();
     }
+
+    @Override
+    public String refill() {
+        return " заправлять бензином, дизелем на заправке или заряжать на специальных электропарковках, если это электрокар";
+    }
+
     public static class Key {
         private final boolean remoteEngineStart;
         private final boolean keylessAccess;

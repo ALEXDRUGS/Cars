@@ -6,6 +6,11 @@ public class Bus extends Transport {
     }
 
     @Override
+    public String refill() {
+       return " заправлять бензином или дизелем на заправке";
+    }
+
+    @Override
     public String toString() {
         return "  Марка: " + getBrand() +
                 " Модель: " + getModel() +

@@ -69,5 +69,10 @@ public class Train extends Transport {
                 " Цена поездки: " + getTripPrice() +
                 " рублей Количество вагонов: " + getNumberOfWagons();
     }
+
+    @Override
+    public String refill() {
+        return " заправлять дизелем";
+    }
 }
 

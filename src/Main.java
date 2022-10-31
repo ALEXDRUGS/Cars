@@ -20,7 +20,8 @@ public class Main {
         Car car5 = new Car("Hyundai", "Avante", 2016, "Южная Корея", "оранжевый", 120.0, 1.6, 5, "седан", "A559AA777", 5,
                 "ЛЕТО", new Car.Key(true, true), new Car.Insurance(LocalDate.now().plusMonths(3), 1000.0f,
                 "123456789"));
-        System.out.println(car1 + "\n" + car2 + "\n" + car3 + "\n" + car4 + "\n" + car5);
+        System.out.println(car1 + car1.refill() + "\n" + car2 + car2.refill() + "\n" + car3 + car3.refill() + "\n" + car4 + car4.refill() +
+                "\n" + car5 + car5.refill());
 
 
         Train train1 = new Train("Ласточка", "B-901", 2011,
@@ -29,7 +30,7 @@ public class Main {
         Train train2 = new Train("Ленинград", "D-125", 2019,
                 "Россия", 270.0, "Ленинградский вокзал",
                 "Ленинград-Пассажирский", 1700, 8);
-        System.out.println(train1 + "\n" + train2);
+        System.out.println(train1 + train1.refill() + "\n" + train2 + train2.refill());
 
 
         Bus bus1 = new Bus("Паз", "32053-70", 2020,
@@ -38,6 +39,6 @@ public class Main {
                 "Россия", "белый", 100);
         Bus bus3 = new Bus("Ikarus", "C83.30G", 2003,
                 "Венгрия", "красный", 120);
-        System.out.println(bus1 + "\n" + bus2 + "\n" + bus3);
+        System.out.println(bus1 + bus1.refill() + "\n" + bus2 + bus2.refill() + "\n" + bus3 + bus3.refill());
     }
 }

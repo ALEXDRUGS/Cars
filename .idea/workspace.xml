@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5edccd13-bc3e-46ca-94ed-fa1a69d59b34" name="Changes" comment="ДЗ Trains">
-      <change afterPath="$PROJECT_DIR$/src/Bus.java" afterDir="false" />
+    <list default="true" id="5edccd13-bc3e-46ca-94ed-fa1a69d59b34" name="Changes" comment="ДЗ Buses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transport/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <workItem from="1667120225049" duration="13770000" />
       <workItem from="1667136988721" duration="1084000" />
       <workItem from="1667215119970" duration="5169000" />
-      <workItem from="1667221077136" duration="2076000" />
+      <workItem from="1667221077136" duration="4060000" />
     </task>
     <task id="LOCAL-00001" summary="ДЗ Cars">
       <created>1666264938187</created>
@@ -99,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667221589609</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ДЗ Buses">
+      <created>1667223566228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667223566228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +143,7 @@
     <MESSAGE value="ДЗ Cars3" />
     <MESSAGE value="ДЗ Cars4" />
     <MESSAGE value="ДЗ Trains" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Trains" />
+    <MESSAGE value="ДЗ Buses" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Buses" />
   </component>
 </project>
